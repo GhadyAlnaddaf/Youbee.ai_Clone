@@ -1,0 +1,227 @@
+/* Responsive */
+/* Max-width:992px */
+@media screen and (max-width: 992px) {
+  /* NavBar */
+  .nav-svg {
+    display: block;
+  }
+  .navBar a {
+    display: none;
+  }
+  /* Home page */
+  .Home-page {
+    height: auto;
+    padding: 120px 0px;
+  }
+  .home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .we-create-buzz {
+    width: 100%;
+    padding: 15px;
+  }
+  .we-create-buzz-content {
+    width: 100%;
+  }
+  .home-images {
+    width: 100%;
+    padding: 15px;
+  }
+  /* cards */
+  .card {
+    width: 44%;
+  }
+  /* Features */
+  .features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .features-img {
+    width: 100%;
+  }
+  .features-content {
+    width: 100%;
+  }
+  /* Digital Frontier */
+  .digital-Frontier {
+    padding: 60px 0px;
+  }
+  .digital-Frontier-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+  }
+  .digital-Frontier-features {
+    width: 100%;
+    padding: 15px;
+  }
+  .digital-Frontier-picture {
+    width: 100%;
+    padding: 15px;
+  }
+  /* Carousel */
+  #element-1 {
+    display: none;
+  }
+  /* Final-part */
+
+  .youbee {
+    width: 50%;
+    padding: 15px;
+  }
+  .company {
+    width: 50%;
+    padding: 15px;
+  }
+  .headquaters {
+    width: 50%;
+    padding: 15px;
+  }
+  .social-media {
+    width: 50%;
+    padding: 15px;
+  }
+  /* login */
+  .content{
+    display: block;
+    width: fit-content;
+  }
+  .form-container{
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .we-create-buzz-content h1 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .we-create-buzz-content p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+  /* Cards */
+  .card {
+    width: 100%;
+  }
+  .card h3 {
+    font-size: 20px;
+  }
+  .card p {
+    font-size: 13px;
+  }
+  /* Get Started now */
+  .learn-programming {
+    height: auto;
+  }
+  .learn-programming-container {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .learn {
+    width: 100%;
+    text-align: center;
+  }
+  .learn h3 {
+    font-size: 28px;
+  }
+  .learn p {
+    width: 100%;
+    font-size: 13px;
+  }
+  .get-started-now {
+    width: 100%;
+    height: auto;
+  }
+  .get-started-now button {
+    width: 220px;
+  }
+  /* Features */
+  .features-content h2 {
+    font-size: 22px;
+  }
+  .features-content p {
+    font-size: 13px;
+  }
+  .features-content h3 {
+    font-size: 16px;
+  }
+  /* Digital Frontier */
+  .digital-Frontier-container h2 {
+    font-size: 22px;
+  }
+  .digital-Frontier-container h2 {
+    font-size: 20px;
+  }
+  .digital-Frontier-container p {
+    font-size: 13px;
+  }
+  /* Request a quote */
+  .request-quote-content h3 {
+    font-size: 24px;
+  }
+  .request-quote-content p {
+    font-size: 13px;
+  }
+  /* Carousel */
+  #element-2 {
+    display: none;
+  }
+  #element-1 {
+    width: 100%;
+  }
+  .courses-content-header h2 {
+    font-size: 20px;
+  }
+  /* final-part */
+  .youbee {
+    width: 50%;
+    padding: 15px;
+  }
+  .company {
+    width: 50%;
+    padding: 15px;
+  }
+  .headquaters {
+    width: 100%;
+    padding: 15px;
+  }
+  .social-media {
+    width: 100%;
+    padding: 15px;
+  }
+  .container-content h4 {
+    font-size: 16px;
+  }
+  .container-content p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 575px) {
+  /* carousel */
+  .element {
+    width: 100%;
+  }
+  .youbee {
+    width: 100%;
+  }
+  .company {
+    width: 100%;
+  }
+}
